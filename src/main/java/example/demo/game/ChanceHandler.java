@@ -20,7 +20,7 @@ public class ChanceHandler extends Handler {
 
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Вам выпал шанс!");
-            alert.setHeaderText("Можете сыграть еще раз бесплатно!");
+            alert.setHeaderText("Но судьба дает Вам шанс сыграть еще раз бесплатно!");
 
             ButtonType ok = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
             alert.getButtonTypes().clear();
