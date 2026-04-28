@@ -10,7 +10,7 @@ public abstract class Handler {
 
     public boolean process(Integer request) {
         if (processor != null)
-            return processor.process(request);
+            return processor.process(request); // передача по йепочке
         else
             return true;
     }
